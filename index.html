@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Портал о программировании</title>
+
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+
+	<script src="https://cdn.jsdelivr.net/npm/jdenticon@3.0.1" async></script>
+</head>
+<body>
+	<header class="header">
+		<div class="header__wrapper">
+			<div class="logo">
+				<img src="img/logo.png" class="logo__image">
+			</div>
+			<div class="search-form">
+				<div class="search-form__wrapper">
+					<input class="input search-form__input" type="text" placeholder="error 039: constant symbol has no size">
+					<input class="button search-form__button" type="submit" value="Поиск">
+				</div>
+			</div>
+			<div class="user-block">
+				<div class="user-block__wrapper">
+					<!-- <div class="button user-block__button">Новая тема</div> -->
+					<div class="user-block__user-data">Kalcor</div>
+					<svg width="80" height="80" data-jdenticon-value="bcf321f329a8a60a737898b6ad225a13" class="user-block__avatar"></svg>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="wrapper">
+		<aside class="sidebar">
+			<h1 class="sidebar__title">Навигация</h1>
+			<nav>
+				<ul class="sidebar__menu">
+					<li class="sidebar__menu-active">Последние сообщения</li>
+					<li>Модификации</li>
+					<li>Загрузки</li>
+				</ul>
+			</nav>
+			<h1 class="sidebar__title">PAWN</h1>
+			<nav>
+				<ul class="sidebar__menu">
+					<li>Мануалы и уроки</li>
+					<li>Вопросы</li>
+					<li>Разработки</li>
+					<li>Программы</li>
+					<li>Функции</li>
+				</ul>
+			</nav>
+			<h1 class="sidebar__title">Рынок</h1>
+			<nav>
+				<ul class="sidebar__menu">
+					<li>Услуги</li>
+					<li>Вакансии</li>
+					<li>Покупка</li>
+					<li>Продажа</li>
+					<li>Стол заказов</li>
+				</ul>
+			</nav>
+			<h1 class="sidebar__title">Технический раздел</h1>
+			<nav>
+				<ul class="sidebar__menu">
+					<li>Жалобы</li>
+					<li>Вакансии</li>
+					<li>Новости и информация</li>
+					<li>Реклама</li>
+				</ul>
+			</nav>
+		</aside>
+		<main class="main">
+			<div class="content">
+				<div class="container">
+					<h1 class="container__title">Последние сообщения</h1>
+					<div class="messages">
+
+						<div class="message">
+							<h1 class="message__title">Какой редактор карт лучше использовать?</h1>
+							<div class="message__info">
+								<span class="message__date">02.09.2020</span> - <span class="message_author">sanikbug2k18</span>
+							</div>
+							<div class="message__bottom">
+								<div class="message__tags">
+									<div class="tag">Вопрос</div>
+									<div class="tag">pawn</div>
+								</div>
+								<div class="message__data">
+									<div class="message_views"><b>350</b> просмотров</div>
+									<div class="message_replies"><b>2</b> ответа</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="message">
+							<h1 class="message__title">Каким образом можно сделать проверку режима езды</h1>
+							<div class="message__info">
+								<span class="message__date">02.09.2020</span> - <span class="message_author">daniil9536</span>
+							</div>
+							<div class="message__bottom">
+								<div class="message__tags">
+									<div class="tag">Вопрос</div>
+									<div class="tag">pawn</div>
+								</div>
+								<div class="message__data">
+									<div class="message_views"><b>350</b> просмотров</div>
+									<div class="message_replies"><b>2</b> ответа</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="message">
+							<h1 class="message__title">React Labs - игровой хостинг нового поколения</h1>
+							<div class="message__info">
+								<span class="message__date">02.09.2020</span> - <span class="message_author">DieSeL</span>
+							</div>
+							<div class="message__bottom">
+								<div class="message__tags">
+									<div class="tag">Хостинг</div>
+									<div class="tag">Услуги</div>
+								</div>
+								<div class="message__data">
+									<div class="message_views"><b>350</b> просмотров</div>
+									<div class="message_replies"><b>2</b> ответа</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="right-sidebar">
+					<h1 class="right-sidebar__title">Пользователи онлайн</h1>
+					<div class="right-sidebar__online-users">
+						<a href="#">Sorcatus</a>, <a href="#">unreal</a>, <a href="#">OKStyle</a>, <a href="#">UnO33</a>, <a href="#">PIRU</a>
+					</div>
+					<h1 class="right-sidebar__title">Профессионалы онлайн</h1>
+					<div class="right-sidebar__online-professionals">
+						Профессионалов нет в сети
+					</div>
+					<h1 class="right-sidebar__title">Реклама</h1>
+					<img src="img/ad.png" class="right-sidebar__ad">
+				</div>
+			</div>
+		</main>
+	</div>
+	<footer class="footer">
+		<div class="footer__left-block">
+			<p>HTML шаблон, форум</p>
+			<p>Автор: <a href="https://github.com/wyretray">wyretray</a></p>
+		</div>
+		<div class="footer__right-block">
+			<p>Иконки: <a href="https://icons8.ru/">icons8</a></p>
+		</div>
+	</footer>
+</body>
+</html>
